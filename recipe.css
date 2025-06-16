@@ -24,7 +24,7 @@ h1, h2, h3 {
 .header__title {
   font-size: 3rem;
   font-weight: 700;
-  color: #02be22;
+  color: #106520;
 }
 
 .header__tagline {
@@ -40,7 +40,7 @@ h1, h2, h3 {
 .intro__heading {
   font-size: 2rem;
   margin-bottom: 1rem;
-  color: #02be22;
+  color: #106520;
 }
 
 .intro__text {
