@@ -9,3 +9,64 @@ body {
 h1, h2, h3 {
     font-family: 'Playfair Display', serif;
 }
+
+.page {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.header__title {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #02be22;
+}
+
+.header__tagline {
+  font-size: 1.2rem;
+  color: #19444b;
+}
+
+.intro {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.intro__heading {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #02be22;
+}
+
+.intro__text {
+  font-size: 1rem;
+  color: #19444b;
+}
+
+.recipes-nav__list {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+
+.recipes-nav__item {
+  margin: 1rem 0;
+}
+
+.recipes-nav__link {
+  text-decoration: solid;
+  font-weight: bold;
+  font-size: 1.1rem;
+  color: #230f72;
+  transition: color 0.3s ease;
+}
+
+.recipes-nav__link:hover {
+  color: #01161a;
+  text-decoration: underline;
+}
