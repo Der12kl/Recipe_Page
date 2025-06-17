@@ -1,3 +1,7 @@
+:root {
+  --accent: #16a34a;
+}
+
 body {
   font-family: 'Open Sans', sans-serif;
   line-height: 1.6;
@@ -84,7 +88,7 @@ h1, h2, h3 {
 .logo__icon {
   width: clamp(64px, 9vw, 160px);
   height: auto;
-  fill: var(--accent, #16a34a);
+  fill: var(--accent);
   transition: transform 0.2s ease;
 }
 
