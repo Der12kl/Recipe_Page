@@ -70,3 +70,30 @@ h1, h2, h3 {
   color: #01161a;
   text-decoration: underline;
 }
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  justify-content: center;
+  margin-bottom: 1rem;
+  text-decoration: none;
+}
+
+.logo svg, 
+.logo__icon {
+  width: clamp(64px, 9vw, 160px);
+  height: auto;
+  fill: var(--accent, #16a34a);
+  transition: transform 0.2s ease;
+}
+
+.logo:hover svg {
+  transform: rotate(-4deg);
+}
+
+.logo__text {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #106520;
+}
