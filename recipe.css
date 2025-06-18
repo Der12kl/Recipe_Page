@@ -101,3 +101,48 @@ h1, h2, h3 {
   font-weight: bold;
   color: #106520;
 }
+
+/* ==== Tablet ====*/
+@media (max-width: 1023px) {
+.page {
+  padding: 1rem;
+}
+.logo__text {
+  font-size: 1.25rem;
+}
+.recipes-nav__link {
+  font-size: 1rem;
+}
+}
+
+/* ==== Mobile ====*/
+@media (max-width: 767px) {
+  .logo svg {
+    width: 80px;
+  }
+  
+  .intro__text {
+    font-size: 0.9rem;
+  }
+
+  .header__tagline {
+    font-size: 1rem;
+  }
+
+  .recipes-nav__item {
+    margin: 0.5rem 0;
+  }
+}
+
+/* ==== Small Mobile ====*/
+@media (max-width: 480px) {
+  .intro__heading {
+    font-size: 1.5rem;
+  }
+  .logo__text {
+    font-size: 1.125rem;
+  }
+  .recipes-nav__link {
+    font-size: 0.95rem;
+  }
+}
