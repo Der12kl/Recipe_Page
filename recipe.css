@@ -137,12 +137,12 @@ h1, h2, h3 {
 /* ==== Small Mobile ====*/
 @media (max-width: 480px) {
   .intro__heading {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
   }
   .logo__text {
-    font-size: 1.125rem;
+    font-size: 1rem;
   }
   .recipes-nav__link {
-    font-size: 0.95rem;
+    font-size: 0.9rem;
   }
 }
