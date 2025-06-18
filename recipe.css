@@ -63,7 +63,7 @@ h1, h2, h3 {
 }
 
 .recipes-nav__link {
-  text-decoration: solid;
+  text-decoration: none;
   font-weight: bold;
   font-size: 1.1rem;
   color: #230f72;
