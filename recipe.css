@@ -305,3 +305,27 @@ gap: 1rem;
   padding: 0.5rem;
  }
 }
+
+@media (max-width: 319) {
+  body {
+    padding: 1rem;
+    font-size: 0.9rem;
+  }
+  .recipe {
+    padding: 1rem;
+  }
+  .recipe__title,
+  .recipe__subheading {
+    font-size: 1.5rem;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .recipe {
+    padding: 1.5rem;
+  }
+  .recipe__step,
+  .recipe__info {
+    margin-bottom: 1rem;
+  }
+} 
