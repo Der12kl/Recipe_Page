@@ -329,3 +329,28 @@ gap: 1rem;
     margin-bottom: 1rem;
   }
 } 
+
+.recipe {
+  position: relative;
+  padding: 2rem;
+  background: #f9f9f9;
+  border: 3px solid transparent;
+  border-radius: 12px;
+}
+
+.recipe:hover {
+  border-image: linear-gradient(90deg, #16a34a, #38bdf8, #16a34a) 1;
+  animation: borderFlow 4s linear infinite;
+}
+
+@keyframes borderFlow {
+  0% {
+border-image-source: linear-gradient(90deg, #16a34a, #38bdf8, #16a34a);
+  }
+  50% {
+border-image-source: linear-gradient(90deg, #38bdf8, #16a34a, #38bdf8);
+  }
+  100% {
+border-image-source: linear-gradient(90deg, #16a34a, #38bdf8, #16a34a);
+  }
+  }
