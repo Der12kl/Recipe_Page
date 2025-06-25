@@ -244,28 +244,10 @@ gap: 1rem;
   padding: 1rem;
 }
 
-.recipe-header__nav {
-  flex: 1;
-  order: 1;
-  width: 100%;
-  text-align: left;
-}
-
 .logo {
   flex: 1;
   order: 2;
   text-align: center;
-}
-
-.recipe-header__link {
-  color: var(--accent);
-  font-size: 1rem;
- text-decoration: none;
- margin-left: 1rem;
-}
-
-.recipe-header__link:hover {
-  text-decoration: underline;
 }
 
 /* ==== Mobile ====*/
