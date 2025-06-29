@@ -36,12 +36,14 @@ h1 {
   font-size: 3rem;
   font-weight: 700;
   color: #106520;
+    margin: 0.5rem 0;
 }
 
 .header__tagline {
   font-size: 1.2rem;
   order: 3;
   color: #19444b;
+     margin: 0.5rem 0;
 }
 
 .intro {
@@ -88,9 +90,8 @@ h1 {
   align-items: center;
   gap: 0.5rem;
   justify-content: center;
-  margin-bottom: 1rem;
+  margin: 0.5rem 0;
   text-decoration: none;
-  flex: 1;
   order: 2;
   text-align: center;
 }
@@ -213,12 +214,11 @@ border-image-source: linear-gradient(90deg, #16a34a, #38bdf8, #16a34a);
 
 .header__container {
   display: flex;
-  flex-wrap: wrap;
   text-align: center;
-  align-items: center;
   flex-direction: column;
-  justify-content: space-between;
+  align-items: center;
   padding: 1rem;
+  gap: 1rem;
 }
 
 .visually-hidden {
@@ -235,6 +235,43 @@ border: 0;
 
 /* ==== Media queries ==== */
 /* for main page */
+
+/* ==== PC ====*/
+@media (min-width: 768px) {
+.header__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 1rem;
+    gap: 1rem;
+  }
+
+  .logo,
+  .header__title {
+    order: 1;
+    flex: none;
+    margin: 0;
+  }
+
+
+  .header__title {
+    flex: none;
+    margin: 0;
+  }
+
+  .header__tagline {
+    order: 2;
+    flex: none;
+    flex-basis: 100%;
+    width: auto;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 0.5rem;
+  }
+}
+
 /* ==== Tablet ====*/
 @media (max-width: 1023px) {
 .page {
@@ -250,27 +287,15 @@ border: 0;
 
 /* ==== Mobile ====*/
 @media (max-width: 767px) {
-  .logo svg {
-    width: 80px;
-  }
-  
-  .intro__text {
-    font-size: 0.9rem;
-  }
-
-  .header__tagline {
-    font-size: 1rem;
-  }
-
-  .recipes-nav__item {
-    margin: 0.5rem 0;
-  }
-  .recipes-nav__list {
-flex-direction: column;
-gap: 1rem;
+  .header__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem 0;
+    gap: 1rem;
+    margin-bottom: 2rem;
   }
 }
-
 /* ==== Small Mobile ====*/
 @media (max-width: 480px) {
   .intro__heading {
