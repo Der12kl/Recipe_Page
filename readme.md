@@ -21,11 +21,12 @@ A responsive and accessible recipe website built using **HTML5** and **CSS3**, w
 | `/index.html`                             | Desktop     | 100         | 100             | 81            | 100   |
 | `/index.html`                             | Mobile      | 99          | 100             | 82            | 100   |
 | `/meatball-soup.html`                     | Desktop     | 99         | 100             | 81            | 100   |
-| `/meatball-soup.html`                     | Mobile      | 99          | 100             | 82            | 100   |
+| `/meatball-soup.html`                     | Mobile      | 96          | 100             | 82            | 100   |
 | `/chicken-primavera-pasta-bake.html`     | Desktop     | 99         | 100             | 81            | 100   |
-| `/chicken-primavera-pasta-bake.html`     | Mobile      | 99          | 100             | 82            | 100   |
+| `/chicken-primavera-pasta-bake.html`     | Mobile      | 95          | 100             | 82            | 100   |
 | `/classic-spicy-meatloaf.html`           | Desktop     | 99         | 100             | 81            | 100   |
 | `/classic-spicy-meatloaf.html`           | Mobile      | 95          | 100             | 82            | 100   |
+> _Note: Lighthouse scores may vary slightly between runs due to emulated network/CPU conditions. All pages maintain consistently high scores across core metrics._
 
 ## Technologies Used
 - HTML5
