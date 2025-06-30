@@ -68,6 +68,8 @@ Recipe_Page/
 
 ## Feedback Welcome
 
+📝 [Leave feedback via GitHub Issue](https://github.com/Der12kl/Recipe_Page/issues/1)
+
 This project was built as part of my learning and portfolio for front-end freelancing.
 I'm currently seeking feedback, improvements, and possible collaborations.
 Feel free to create an issue or contact me via email or social platforms.
