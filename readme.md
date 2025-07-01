@@ -14,6 +14,14 @@ A responsive and accessible recipe website built using **HTML5** and **CSS3**, w
 
 [🔗 View Project](https://der12kl.github.io/Recipe_Page/)
 
+## 📸 Preview
+
+### Desktop
+![Desktop Preview](assets/screenshots/desktop-preview.webp)
+
+### Mobile
+![Mobile Preview](assets/screenshots/mobile-preview.webp)
+
 ## Lighthouse Audit Results
 
 | Page                                   | Device  | Performance | Accessibility | Best Practices | SEO  |
