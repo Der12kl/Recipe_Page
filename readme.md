@@ -75,7 +75,7 @@ Recipe_Page/
 │   ├── chicken-primavera-pasta-bake.html
 │   └── classic-spicy-meatloaf.html
 ├── index.js
-├── license
+├── LICENSE
 ├── package.json
 └── README.md
 
@@ -92,6 +92,6 @@ You can also reach me via:
 - 🔗 [LinkedIn](https://www.linkedin.com/in/evgeny-kozelskiy-4501332b8/)
 - 🐦 [Twitter/X](https://x.com/Evgeny9281)
 
-## License
+## LICENSE
 
-This project is licensed under the ISC License.
+This project is licensed under the ISC LICENSE.
