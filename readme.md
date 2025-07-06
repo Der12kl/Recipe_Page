@@ -73,6 +73,8 @@ Recipe_Page/
 ![HTML5](https://img.shields.io/badge/HTML5-%23E34F26.svg?&style=flat&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-%231572B6.svg?&style=flat&logo=css3&logoColor=white)
 ![Validated HTML](https://img.shields.io/w3c-validation/html?targetUrl=https://der12kl.github.io/Recipe_Page/index.html)
+![Accessibility](https://img.shields.io/badge/accessibility-WCAG%202.1-green)
+
 
 ## Feedback Welcome
 
