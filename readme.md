@@ -88,7 +88,6 @@ I'm currently seeking feedback, improvements, and possible collaborations.
 Feel free to create an issue or contact me via email or social platforms.
 
 You can also reach me via: 
-- 📧 Email: superlern4@gmail.com
 - 🔗 [LinkedIn](https://www.linkedin.com/in/evgeny-kozelskiy-4501332b8/)
 - 🐦 [Twitter/X](https://x.com/Evgeny9281)
 
